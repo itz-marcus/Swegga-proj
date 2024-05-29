@@ -1,4 +1,4 @@
-/* Examination number */
+/*Marcus Adonis*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@ body {
 	background-color: white;
 	margin: 10px auto;
 	border: 2px solid black;
-	padding: 10px; }
+	padding: 15px; }
 
 #banner {
     margin-bottom: 1em;
@@ -52,3 +52,43 @@ td, th {
 	
 .alignRight {
 	text-align: right; }
+
+.sidebar{
+    background-image: url(https://itz-marcus.github.io/Swegga-proj/swegga.jpg);
+	width: 150px;
+	height: 350px;
+	background-size: cover;	
+	
+}
+
+.banner{
+	background-image: url(https://itz-marcus.github.io/Swegga-proj/delivery.gif);
+	width: 300px;
+	height: 85px;
+	background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+	
+	
+}
+
+.navigation{
+	background-image: url(https://itz-marcus.github.io/Swegga-proj/links.gif);
+	width: 560px;
+	height: 56px;
+	object-fit: fill;
+	background-repeat: no-repeat;
+	
+}
+h4{
+	color: #4766B8; 
+}
+
+.footer{
+	margin-top: 0.5em;
+	border-top: 2px;
+	border-color: solid grey ;
+	padding: 0.7em;
+	display: flex;
+	justify-content: flex-end;
+}
