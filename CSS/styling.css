@@ -14,22 +14,6 @@ body {
 	border: 2px solid black;
 	padding: 15px; }
 
-#banner {
-    margin-bottom: 1em;
-	height: 70px }
-
-#navigation {
-	margin-top: 1em;
-	height: 45px;
-	background-color: white; }
-	
-#sidebar {
-	width: 150px;
-	height: 370px;
-	background-color: white;
-	margin-bottom: .7em;
-	float: left; }
-
 .copyright {
     font-size: 90%;
     text-align: right; 
@@ -56,8 +40,9 @@ td, th {
 .alignRight {
 	text-align: right; }
 
+
 .sidebar{
-    background-image: url(https://itz-marcus.github.io/Swegga-proj/swegga.jpg);
+    background-image: url(https://itz-marcus.github.io/Swegga-proj/Images/swegga.jpg);
 	width: 150px;
 	height: 350px;
 	background-size: cover;	
@@ -65,7 +50,7 @@ td, th {
 }
 
 .banner{
-	background-image: url(https://itz-marcus.github.io/Swegga-proj/delivery.gif);
+	background-image: url(https://itz-marcus.github.io/Swegga-proj/Images/delivery.gif);
 	width: 300px;
 	height: 85px;
 	background-position: center;
@@ -76,7 +61,6 @@ td, th {
 }
 
 .navigation{
-	background-image: url(https://itz-marcus.github.io/Swegga-proj/links.gif); 
 	width: 560px;
 	height: 56px;
 	object-fit: fill;
