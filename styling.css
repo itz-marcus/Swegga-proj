@@ -36,6 +36,9 @@ body {
 	margin: 0; }
 	
 /* the styles for the table*/
+#main{
+	display: flex;
+}
 
 caption {
 	font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +76,7 @@ td, th {
 }
 
 .navigation{
-	background-image: url(https://itz-marcus.github.io/Swegga-proj/links.gif);
+	background-image: url(https://itz-marcus.github.io/Swegga-proj/links.gif); 
 	width: 560px;
 	height: 56px;
 	object-fit: fill;
