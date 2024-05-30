@@ -83,7 +83,9 @@ td, th {
 	background-repeat: no-repeat;
 	
 }
-h4{
+h2{
+	display: flex;
+	justify-content: center;
 	color: #4766B8; 
 }
 
