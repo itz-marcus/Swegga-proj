@@ -26,20 +26,78 @@
 					<img class="navigation" src="https://itz-marcus.github.io/Swegga-proj/Images/links.gif"  usemap="#workmap">
 
 					<map name="workmap">
-					<area shape="rect" coords="10,5,95,35" href="home.html" alt="home" target="_blank">
+					<area shape="rect" coords="10,5,95,35" href="order.html" alt="order" target="_blank">
 
-					<area shape="rect" coords="105,5,190,35" href="h" alt="https://za.pinterest.com/" target="_blank">	
+					<area shape="rect" coords="105,5,190,35" href="service.html" alt="services" target="_blank">	
 
-					<area shape="rect" coords="205,5,300,35" href="home" alt="https://za.pinterest.com/" target="_blank">	
+					<area shape="rect" coords="205,5,300,35" href="product.html" alt="products" target="_blank">	
 
-					<area shape="rect" coords="310,5,440,35" href="home" alt="https://za.pinterest.com/" target="_blank">	
+					<area shape="rect" coords="310,5,440,35" href="orderStatus.html" alt="orderStatus" target="_blank">	
 					
-					<area shape="rect" coords="450,5,555,35" href="home" alt="https://za.pinterest.com/" target="_blank">	
+					<area shape="rect" coords="450,5,555,35" href="contcatUs.html" alt="contactUs" target="_blank">	
 
 					</map>
 				<div class="product">
 				<h2>Product Summary</h2>
-				
+				<table>
+					<thead>
+						<td>Description</td>
+						<td>Size</td>
+						<td>Colour</td>
+						<td>Prize</td>
+						<td>Quantity</td>
+						<td>Total</td>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="female.html">Female Ski Jackets</a></td>
+							<td>
+								<select name="Size" id="Size">
+								<option value="S">Small</option>
+								<option value="M">Medium</option>
+								<option value="L">Large</option>
+							 	</select>
+							</td>
+							<td>
+								<select name="colours" id="colours">
+								<option value="R">Red</option>
+								<option value="P">Pink</option>
+								<option value="B">Black</option>
+								</select>
+							</td>
+							<td>150.95</td>
+							<td><input type="number"></td>
+							<td><label for="totalF">R</label></td>
+						</tr>
+						<tr>
+							<td><a href="male.html">Male Ski Jackets</a></td>
+							<td>
+								<select name="Size" id="Size">
+								<option value="S">Small</option>
+								<option value="M">Medium</option>
+								<option value="L">Large</option>
+								</select>
+							</td>
+							<td>
+								<select name="colours" id="colours">
+								<option value="R">Red</option>
+								<option value="B">Blue</option>
+								<option value="W">White</option>
+								</select>
+							</td>
+							<td>180.95</td>
+							<td><input type="number"></td>
+							<td><label for="totalM">R</label></td>
+						</tr>
+						<tr>
+							<td colspan="4">Click to confirm and process your order</td>
+							<td>
+								<button>Total Price</button>
+							</td>
+							<td><label for="fullTotal">R</label></td>
+						</tr>
+					</tbody>
+				</table>
 				</div>
 		</div>
 		
@@ -47,8 +105,8 @@
 	</div>
 	<br>
 	<hr>
-	<footer class="footer">© 2014 Swegga Fashion - Marcus Adonis</footer>
+	<footer class="copyright">© 2014 Swegga Fashion - Marcus Adonis</footer>
 </div>
-
+ <script src="./Script/index.js"></script>
 </body>
 </html>

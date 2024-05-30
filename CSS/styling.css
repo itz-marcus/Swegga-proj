@@ -32,10 +32,10 @@ caption {
 	font-size: 150%;
 	color: #4766B8; }
 
-td, th {
+td, thead {
 	border: 1px solid black;
-	padding: .2em .7em;
-	font-size: 95%; }	
+    padding: .2em .7em;
+    font-size: 95%; }	
 	
 .alignRight {
 	text-align: right; }
@@ -72,12 +72,27 @@ h2{
 	justify-content: center;
 	color: #4766B8; 
 }
+thead{
+	font-weight: bold;
+}
 
-.footer{
+.copyright{
 	margin-top: 0.5em;
 	border-top: 2px;
 	border-color: solid grey ;
 	padding: 0.7em;
 	display: flex;
 	justify-content: flex-end;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+input{
+	width: 125px;
+}
+
+button{
+	width: 100%;
 }
